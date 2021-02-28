@@ -1,0 +1,36 @@
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  &__box {
+    padding: 15px;
+    min-width: 480px;
+
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px #ccc;
+
+    .form-group {
+      margin-bottom: 15px;
+
+      &.form__actions {
+        margin-bottom: 0;
+      }
+
+      button {
+        width: 100%;
+        padding: 7px 10px;
+
+        background-color: #1890ff;
+        outline: none;
+        border: 0 none;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+}

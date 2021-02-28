@@ -1,0 +1,20 @@
+.app {
+  background: transparent;
+
+  &__main,
+  &__header,
+  &__footer {
+    &--wrap {
+      max-width: 1199px;
+      margin: auto;
+      padding: 0 20px;
+    }
+  }
+
+  .loading-fallback {
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
